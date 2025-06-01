@@ -126,7 +126,6 @@ public class E12 {
             conn.setRequestProperty("Content-Type", "application/json");
             conn.setDoOutput(true);
 
-            // Monta o JSON dinamicamente usando os parâmetros
             String json = "{\n" +
                     "    \"isbn13\": \"" + isbn13 + "\",\n" +
                     "    \"type\": \"" + type + "\",\n" +
